@@ -26,13 +26,27 @@ REM Check pip
 echo Sprawdzanie pip...
 pip --version 2>&1
 if errorlevel 1 (
-    echo [X] pip NIE jest zainstalowany!
+    echo [X] pip nie jest w PATH, probuje python -m pip...
     echo.
-    goto end
+    python -m pip --version 2>&1
+    if errorlevel 1 (
+        echo [X] pip NIE jest zainstalowany!
+        echo.
+        echo ROZWIAZANIE:
+        echo 1. Uruchom: fix_pip.bat
+        echo 2. Lub zainstaluj Python ponownie z pip
+        echo.
+        goto end
+    ) else (
+        echo [OK] pip dziala przez "python -m pip"!
+        echo.
+        echo UWAGA: Uzywaj "python -m pip" zamiast "pip"
+        echo.
+    )
+) else (
+    echo [OK] pip jest zainstalowany i jest w PATH!
+    echo.
 )
-
-echo [OK] pip jest zainstalowany!
-echo.
 
 REM Show Python path
 echo Lokalizacja Python:

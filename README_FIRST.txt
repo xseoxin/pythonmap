@@ -44,8 +44,13 @@ Jeśli błąd - wróć do KROKU 1.
 
 KROK 3: Zainstaluj aplikację
 -----------------------------
-Kliknij dwukrotnie na plik (jako Administrator):
-   >>> install_step_by_step.bat <<<
+OPCJA A (normalna instalacja):
+   Kliknij prawym na: install_step_by_step.bat
+   Wybierz: "Uruchom jako administrator"
+
+OPCJA B (jeśli pip nie działa):
+   Kliknij prawym na: install_with_python_pip.bat
+   Wybierz: "Uruchom jako administrator"
 
 Poczekaj 3-5 minut na instalację.
 
@@ -67,6 +72,9 @@ Kliknij dwukrotnie na:
 🔧 check_python.bat      - Sprawdza czy Python jest OK
 🔧 install.bat           - Szybka instalacja
 🔧 install_step_by_step.bat - Instalacja krok po kroku (ZALECANE)
+🔧 install_with_python_pip.bat - Instalacja gdy pip nie działa ⚠️
+🔧 fix_pip.bat           - Naprawia problem z pip
+🔧 troubleshoot.bat      - Diagnostyka wszystkich problemów
 🔧 run.bat               - Uruchamia aplikację
 
 
@@ -78,6 +86,12 @@ Rozwiązanie:
   1. Odinstaluj Python
   2. Zainstaluj ponownie z "Add Python to PATH"
   3. Zrestartuj komputer
+
+Problem: "pip NIE jest zainstalowany" ⚠️ CZĘSTY PROBLEM!
+Rozwiązanie:
+  1. Użyj: install_with_python_pip.bat (jako Administrator)
+  2. Lub przeczytaj: PROBLEM_PIP.txt
+  3. Lub uruchom: fix_pip.bat
 
 Problem: Aplikacja się nie uruchamia
 Rozwiązanie:
