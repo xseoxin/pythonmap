@@ -1,67 +1,170 @@
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
-║                   WITAJ W GOOGLE MAPS POSITION CHECKER!               ║
+║            🚀 GOOGLE MAPS - SPRAWDZANIE POZYCJI FRAZ                  ║
+║                                                                       ║
+║                         ZACZNIJ TUTAJ!                                ║
 ║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                                                                     ┃
-┃                  👉 ZACZNIJ OD:                                     ┃
-┃                                                                     ┃
-┃                  ┌─────────────────────────┐                       ┃
-┃                  │  START_TUTAJ.txt        │                       ┃
-┃                  └─────────────────────────┘                       ┃
-┃                                                                     ┃
-┃                  Kliknij dwukrotnie na ten plik!                   ┃
-┃                                                                     ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+═══════════════════════════════════════════════════════════════════════
+                        INSTALACJA (2 KROKI)
+═══════════════════════════════════════════════════════════════════════
+
+
+┌───────────────────────────────────────────────────────────────────────┐
+│                                                                       │
+│  KROK 1: Zainstaluj Python                                           │
+│                                                                       │
+│  1. Otwórz: https://www.python.org/downloads/                       │
+│  2. Pobierz Python (żółty przycisk "Download Python")               │
+│  3. Uruchom instalator                                               │
+│  4. ⚠️ KONIECZNIE ZAZNACZ: "Add Python to PATH" ⚠️                   │
+│  5. Kliknij "Install Now"                                            │
+│  6. Poczekaj na instalację                                           │
+│  7. Zrestartuj komputer                                              │
+│                                                                       │
+└───────────────────────────────────────────────────────────────────────┘
+
+
+┌───────────────────────────────────────────────────────────────────────┐
+│                                                                       │
+│  KROK 2: Zainstaluj aplikację                                       │
+│                                                                       │
+│  1. Kliknij PRAWYM przyciskiem myszy na:                            │
+│                                                                       │
+│     ╔════════════════════════╗                                      │
+│     ║  INSTALUJ_TUTAJ.bat    ║  ← Ten plik!                        │
+│     ╚════════════════════════╝                                      │
+│                                                                       │
+│  2. Wybierz: "Uruchom jako administrator"                           │
+│                                                                       │
+│  3. Poczekaj 5-10 minut                                             │
+│     (Wszystko zainstaluje się automatycznie!)                        │
+│                                                                       │
+│  4. Na końcu wybierz "Y" aby uruchomić aplikację                    │
+│                                                                       │
+└───────────────────────────────────────────────────────────────────────┘
 
 
 ═══════════════════════════════════════════════════════════════════════
-
-                        KRÓTKA INSTRUKCJA
-
+                            ✅ GOTOWE!
 ═══════════════════════════════════════════════════════════════════════
 
-1. Zainstaluj Python (python.org)
-   WAŻNE: Zaznacz "Add Python to PATH"!
-
-2. Kliknij PRAWYM na: INSTALUJ_TUTAJ.bat
-   Wybierz: "Uruchom jako administrator"
-
-3. Po instalacji kliknij: run.bat
-
-4. Gotowe! 🎉
+Po instalacji uruchamiaj aplikację przez: run.bat
 
 
 ═══════════════════════════════════════════════════════════════════════
+                         ❓ MASZ PROBLEM?
+═══════════════════════════════════════════════════════════════════════
 
-                     PLIKI W TYM FOLDERZE
 
+❌ Problem: "Python nie jest rozpoznawany"
+───────────────────────────────────────────────────────────────────────
+Rozwiązanie:
+  • Nie zaznaczyłeś "Add Python to PATH" podczas instalacji
+  • Odinstaluj Python (Panel Sterowania → Programy)
+  • Zainstaluj ponownie i KONIECZNIE zaznacz "Add Python to PATH"
+  • Zrestartuj komputer
+
+
+❌ Problem: Instalator wymaga Administratora
+───────────────────────────────────────────────────────────────────────
+Rozwiązanie:
+  • Kliknij PRAWYM na INSTALUJ_TUTAJ.bat
+  • Wybierz "Uruchom jako administrator"
+  • To jest WYMAGANE dla instalacji pakietów
+
+
+❌ Problem: Instalacja się zawiesza lub błędy
+───────────────────────────────────────────────────────────────────────
+Rozwiązanie:
+  • Sprawdź połączenie z internetem
+  • Wyłącz antywirusa na chwilę
+  • Uruchom: troubleshoot.bat (diagnostyka)
+
+
+❌ Problem: Aplikacja się nie uruchamia
+───────────────────────────────────────────────────────────────────────
+Rozwiązanie:
+  • Uruchom: check_python.bat (sprawdź instalację)
+  • Uruchom: troubleshoot.bat (diagnostyka)
+  • Zainstaluj ponownie: INSTALUJ_TUTAJ.bat
+
+
+═══════════════════════════════════════════════════════════════════════
+                          📁 PLIKI W FOLDERZE
 ═══════════════════════════════════════════════════════════════════════
 
 📌 PRZECZYTAJ_MNIE.txt       ← TEN PLIK
-📌 START_TUTAJ.txt           ← Szczegółowa instrukcja instalacji
 
-🔧 INSTALUJ_TUTAJ.bat        ← INSTALATOR (użyj tego!)
+🔧 INSTALUJ_TUTAJ.bat        ← INSTALATOR (uruchom jako Administrator!)
 🔧 run.bat                   ← Uruchamia aplikację
+🔧 check_python.bat          ← Diagnostyka Python
+🔧 troubleshoot.bat          ← Diagnostyka wszystkiego
 
-📚 README.md                 - Pełna dokumentacja
-📚 QUICKSTART_PL.md          - Przewodnik użytkownika
-📚 INSTALACJA_KROK_PO_KROKU.txt - Wizualny przewodnik
+📚 README.md                 ← Pełna dokumentacja
+📚 QUICKSTART_PL.md          ← Szczegółowy przewodnik użytkownika
+
+
+═══════════════════════════════════════════════════════════════════════
+                    🎯 PIERWSZE KROKI W APLIKACJI
+═══════════════════════════════════════════════════════════════════════
+
+Po uruchomieniu aplikacji:
+
+1. Kliknij: "➕ Nowy Projekt"
+
+2. Wypełnij dane:
+   • Nazwa projektu: np. "Moja Pizzeria"
+   • Nazwa firmy: dokładna nazwa z Google Maps
+   • Współrzędne: znajdź w Google Maps (kliknij prawym → "Co tu jest?")
+   • Promień: 5 km (na początek)
+   • Siatka: 5x5 (na początek)
+
+3. Kliknij: "📝 Zarządzaj Frazami"
+   Dodaj frazy np.:
+   • pizza
+   • pizzeria warszawa
+   • najlepsza pizza
+
+4. Kliknij: "▶️ Sprawdź Pozycje"
+   Poczekaj 2-5 minut
+
+5. Zobacz wyniki:
+   • 🗺️ Pokaż Mapę - wizualizacja
+   • 📄 Generuj Raport - eksport do Excel/PDF
+
+
+═══════════════════════════════════════════════════════════════════════
+                       💡 WSKAZÓWKI
+═══════════════════════════════════════════════════════════════════════
+
+✅ Na początek użyj:
+   • Siatka: 5x5 (szybko, ~2 minuty)
+   • Promień: 3-5 km
+   • 2-3 frazy
+
+✅ Sprawdzaj regularnie:
+   • Raz dziennie lub co 2-3 dni
+   • NIE co godzinę! (ryzyko blokady)
+
+✅ Używaj konkretnych fraz:
+   • "pizza kraków" ✓
+   • "pizza" ✗ (zbyt ogólne)
+
+
+═══════════════════════════════════════════════════════════════════════
+                      🆘 POTRZEBUJESZ POMOCY?
+═══════════════════════════════════════════════════════════════════════
+
+1. Przeczytaj: README.md (pełna dokumentacja)
+2. Przeczytaj: QUICKSTART_PL.md (szczegółowy przewodnik)
+3. Uruchom: troubleshoot.bat (diagnostyka)
 
 
 ═══════════════════════════════════════════════════════════════════════
 
-                     POMOC I WSPARCIE
-
-═══════════════════════════════════════════════════════════════════════
-
-Masz problem?
-→ Przeczytaj START_TUTAJ.txt
-→ Uruchom troubleshoot.bat (diagnostyka)
-→ Zobacz PROBLEM_PIP.txt (problemy z instalacją)
-
+                    POWODZENIA! 🎉
 
 ═══════════════════════════════════════════════════════════════════════

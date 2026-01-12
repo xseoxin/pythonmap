@@ -1,105 +1,70 @@
-╔═══════════════════════════════════════════════════════════════════════╗
-║                                                                       ║
-║         🚀 GOOGLE MAPS - SPRAWDZANIE POZYCJI FRAZ                     ║
-║                                                                       ║
-║                    ZACZNIJ TUTAJ!                                     ║
-║                                                                       ║
-╚═══════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║     Google Maps - Sprawdzanie Pozycji Fraz                    ║
+║                                                                ║
+║     INSTALACJA - 2 PROSTE KROKI                               ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 
 
-═══════════════════════════════════════════════════════════════════════
-
-                    📋 INSTALACJA (2 KROKI)
-
-═══════════════════════════════════════════════════════════════════════
-
-
-┌───────────────────────────────────────────────────────────────────────┐
-│                                                                       │
-│  KROK 1: Zainstaluj Python (jeśli nie masz)                         │
-│                                                                       │
-│  1. Otwórz: https://www.python.org/downloads/                       │
-│  2. Pobierz Python (żółty przycisk)                                 │
-│  3. ZAZNACZ: "Add Python to PATH" ✓✓✓                               │
-│  4. Zainstaluj                                                       │
-│  5. Zrestartuj komputer                                              │
-│                                                                       │
-└───────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                                                                │
+│  KROK 1: Zainstaluj Python                                    │
+│  ─────────────────────────                                    │
+│                                                                │
+│  Otwórz: https://www.python.org/downloads/                   │
+│                                                                │
+│  ⚠️  WAŻNE: Zaznacz "Add Python to PATH"  ⚠️                  │
+│                                                                │
+│  Po instalacji → Zrestartuj komputer                          │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 
 
-┌───────────────────────────────────────────────────────────────────────┐
-│                                                                       │
-│  KROK 2: Zainstaluj aplikację                                       │
-│                                                                       │
-│  ┌─────────────────────────────────────────┐                        │
-│  │                                         │                        │
-│  │  >>> Kliknij PRAWYM na plik:           │                        │
-│  │      INSTALUJ_TUTAJ.bat                │                        │
-│  │                                         │                        │
-│  │  >>> Wybierz:                           │                        │
-│  │      "Uruchom jako administrator"      │                        │
-│  │                                         │                        │
-│  └─────────────────────────────────────────┘                        │
-│                                                                       │
-│  Poczekaj 5-10 minut - wszystko zainstaluje się automatycznie!      │
-│                                                                       │
-└───────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                                                                │
+│  KROK 2: Zainstaluj aplikację                                │
+│  ──────────────────────────                                   │
+│                                                                │
+│  Kliknij PRAWYM przyciskiem na:                              │
+│                                                                │
+│      ┏━━━━━━━━━━━━━━━━━━━━┓                                  │
+│      ┃ INSTALUJ_TUTAJ.bat ┃                                  │
+│      ┗━━━━━━━━━━━━━━━━━━━━┛                                  │
+│                                                                │
+│  Wybierz: "Uruchom jako administrator"                        │
+│                                                                │
+│  Poczekaj 5-10 minut...                                       │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 
 
-═══════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════
 
-                         GOTOWE! 🎉
+                    ✅ GOTOWE!
 
-═══════════════════════════════════════════════════════════════════════
+  Po instalacji uruchamiaj przez: run.bat
 
-
-Po instalacji kliknij dwukrotnie: run.bat
-
-
-═══════════════════════════════════════════════════════════════════════
-
-                    ❓ MASZ PROBLEM?
-
-═══════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════
 
 
-Problem: "Python nie jest rozpoznawany"
-───────────────────────────────────────────────────────────────────────
-  → Nie zaznaczyłeś "Add Python to PATH" podczas instalacji
-  → Odinstaluj Python i zainstaluj ponownie (zaznacz PATH!)
+❓ PROBLEMY?
+
+  • "Python nie jest rozpoznawany"
+    → Zainstaluj Python ponownie z "Add Python to PATH"
+
+  • Instalator się nie uruchamia
+    → Kliknij PRAWYM i wybierz "Uruchom jako administrator"
+
+  • Coś innego
+    → Uruchom: troubleshoot.bat
 
 
-Problem: Instalacja się zawiesza
-───────────────────────────────────────────────────────────────────────
-  → Sprawdź internet
-  → Uruchom jako Administrator
-  → Poczekaj - może trwać 10 minut
+════════════════════════════════════════════════════════════════
 
+📚 POMOC:
+   • PRZECZYTAJ_MNIE.txt - szczegółowa instrukcja
+   • README.md - pełna dokumentacja
+   • troubleshoot.bat - diagnostyka
 
-Problem: Nie wiem co robię
-───────────────────────────────────────────────────────────────────────
-  → Przeczytaj: INSTALACJA_KROK_PO_KROKU.txt
-  → Lub: QUICKSTART_PL.md
-
-
-═══════════════════════════════════════════════════════════════════════
-
-                    📚 DOKUMENTACJA
-
-═══════════════════════════════════════════════════════════════════════
-
-START_TUTAJ.txt              ← TEN PLIK
-INSTALUJ_TUTAJ.bat           ← INSTALATOR (użyj tego!)
-run.bat                      ← Uruchamia aplikację
-
-README.md                    - Pełna dokumentacja
-QUICKSTART_PL.md             - Szczegółowy przewodnik
-INSTALACJA_KROK_PO_KROKU.txt - Wizualny przewodnik
-PROBLEM_PIP.txt              - Rozwiązanie problemów z pip
-
-
-═══════════════════════════════════════════════════════════════════════
-
-           TO WSZYSTKO! ZACZYNAMY! 🚀
-
-═══════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════

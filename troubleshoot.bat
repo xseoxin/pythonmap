@@ -72,9 +72,9 @@ echo.
 echo Sprawdzam kluczowe pakiety...
 echo.
 
-python -c "import PyQt5; print('PyQt5:', PyQt5.Qt.PYQT_VERSION_STR)" 2>&1
+python -c "import PyQt5; print('PyQt5:', PyQt5.Qt.PYQT_VERSION_STR)" 2>nul
 if errorlevel 1 (
-    echo [BRAK] PyQt5 - zainstaluj: pip install PyQt5
+    echo [BRAK] PyQt5 - zainstaluj: python -m pip install PyQt5
 ) else (
     echo [OK] PyQt5
 )
@@ -186,8 +186,8 @@ echo    - Zaznacz "Add Python to PATH"
 echo    - Zrestartuj komputer
 echo.
 echo 2. Brakuje pakietow:
-echo    - Uruchom: install_step_by_step.bat jako Administrator
-echo    - Lub recznie: pip install -r requirements.txt
+echo    - Kliknij PRAWYM na: INSTALUJ_TUTAJ.bat
+echo    - Wybierz: "Uruchom jako administrator"
 echo.
 echo 3. Chrome nie jest zainstalowany:
 echo    - Pobierz z google.com/chrome
@@ -195,19 +195,20 @@ echo.
 echo 4. Aplikacja sie nie uruchamia:
 echo    - Zobacz plik pythonmap.log
 echo    - Sprobuj: python main.py (w cmd)
-echo    - Zainstaluj ponownie pakiety
+echo    - Zainstaluj ponownie pakiety (INSTALUJ_TUTAJ.bat)
 echo.
 echo --------------------------------------------------------
 echo DALSZE KROKI:
 echo --------------------------------------------------------
 echo.
 echo Jesli wszystko OK:
-echo   1. Uruchom: install_step_by_step.bat
-echo   2. Nastepnie: run.bat
+echo   1. Kliknij PRAWYM na: INSTALUJ_TUTAJ.bat
+echo   2. Wybierz: "Uruchom jako administrator"
+echo   3. Po instalacji uruchom: run.bat
 echo.
 echo Jesli sa bledy:
 echo   1. Napraw problemy z powyzszej listy
-echo   2. Przeczytaj QUICKSTART_PL.md
+echo   2. Przeczytaj PRZECZYTAJ_MNIE.txt
 echo   3. Uruchom ten skrypt ponownie
 echo.
 echo ========================================================
