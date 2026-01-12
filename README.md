@@ -47,32 +47,48 @@ Profesjonalna aplikacja desktop do monitorowania pozycji fraz kluczowych w wynik
 
 ## Instalacja
 
-### 1. Zainstaluj Python
+### 🚀 SZYBKA INSTALACJA (ZALECANE)
 
-Pobierz Python z [python.org](https://www.python.org/downloads/) i zainstaluj:
-- Zaznacz opcję "Add Python to PATH" podczas instalacji
-- Wybierz "Install Now"
+**Krok 1:** Zainstaluj Python z [python.org](https://www.python.org/downloads/)
+- ⚠️ **KONIECZNIE zaznacz "Add Python to PATH"** podczas instalacji
+- Zrestartuj komputer po instalacji
 
-### 2. Pobierz projekt
+**Krok 2:** Kliknij PRAWYM przyciskiem na: **`INSTALUJ_TUTAJ.bat`**
+- Wybierz: "Uruchom jako administrator"
+- Poczekaj 5-10 minut - wszystko zainstaluje się automatycznie!
 
-```bash
-git clone <repository_url>
-cd pythonmap
-```
+**Krok 3:** Uruchom aplikację - kliknij dwukrotnie na: **`run.bat`**
 
-### 3. Zainstaluj zależności
+✅ **To wszystko! Gotowe!**
 
-Otwórz wiersz polecenia (Command Prompt) w folderze projektu i wykonaj:
+---
 
-```bash
-pip install -r requirements.txt
-```
+### 📋 Alternatywna instalacja ręczna
 
-### 4. Uruchom aplikację
+Jeśli wolisz zainstalować ręcznie:
 
-```bash
-python main.py
-```
+1. **Zainstaluj Python**
+   ```bash
+   # Pobierz z python.org
+   # Zaznacz "Add Python to PATH"
+   ```
+
+2. **Pobierz projekt**
+   ```bash
+   git clone <repository_url>
+   cd pythonmap
+   ```
+
+3. **Zainstaluj zależności**
+   ```bash
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+   ```
+
+4. **Uruchom aplikację**
+   ```bash
+   python main.py
+   ```
 
 ## Szybki Start
 

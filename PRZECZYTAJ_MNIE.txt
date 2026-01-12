@@ -1,0 +1,67 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║                   WITAJ W GOOGLE MAPS POSITION CHECKER!               ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                     ┃
+┃                  👉 ZACZNIJ OD:                                     ┃
+┃                                                                     ┃
+┃                  ┌─────────────────────────┐                       ┃
+┃                  │  START_TUTAJ.txt        │                       ┃
+┃                  └─────────────────────────┘                       ┃
+┃                                                                     ┃
+┃                  Kliknij dwukrotnie na ten plik!                   ┃
+┃                                                                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+═══════════════════════════════════════════════════════════════════════
+
+                        KRÓTKA INSTRUKCJA
+
+═══════════════════════════════════════════════════════════════════════
+
+1. Zainstaluj Python (python.org)
+   WAŻNE: Zaznacz "Add Python to PATH"!
+
+2. Kliknij PRAWYM na: INSTALUJ_TUTAJ.bat
+   Wybierz: "Uruchom jako administrator"
+
+3. Po instalacji kliknij: run.bat
+
+4. Gotowe! 🎉
+
+
+═══════════════════════════════════════════════════════════════════════
+
+                     PLIKI W TYM FOLDERZE
+
+═══════════════════════════════════════════════════════════════════════
+
+📌 PRZECZYTAJ_MNIE.txt       ← TEN PLIK
+📌 START_TUTAJ.txt           ← Szczegółowa instrukcja instalacji
+
+🔧 INSTALUJ_TUTAJ.bat        ← INSTALATOR (użyj tego!)
+🔧 run.bat                   ← Uruchamia aplikację
+
+📚 README.md                 - Pełna dokumentacja
+📚 QUICKSTART_PL.md          - Przewodnik użytkownika
+📚 INSTALACJA_KROK_PO_KROKU.txt - Wizualny przewodnik
+
+
+═══════════════════════════════════════════════════════════════════════
+
+                     POMOC I WSPARCIE
+
+═══════════════════════════════════════════════════════════════════════
+
+Masz problem?
+→ Przeczytaj START_TUTAJ.txt
+→ Uruchom troubleshoot.bat (diagnostyka)
+→ Zobacz PROBLEM_PIP.txt (problemy z instalacją)
+
+
+═══════════════════════════════════════════════════════════════════════
